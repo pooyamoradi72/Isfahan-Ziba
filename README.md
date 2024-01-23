@@ -8,4 +8,4 @@
 <img src="https://www.uploadbag.com/img/image/67/31ec8420bd80772ee17845f12e8ce996/photo-2024-01-22-23-35-20.jpg" width=480 height=580>
 <img src="https://www.uploadbag.com/img/image/57/5115b181f75c49a141de07a07b5d5bd8/photo-2024-01-22-23-35-22.jpg" width=480 height=580>
 <hr>
-<p>All Right Reserved © CopyRight2024|Pooya Moradi</p>
+<p>All Right Reserved © CopyRight2024 | Pooya Moradi</p>
