@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.pooyamoradi.isfahan_ziba.Images">
+
+    <Button
+        android:id="@+id/btnBackImages"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="بازگشت"
+        android:tooltipText="برای بازگشت به منوی اصلی کلیک کنید" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/siosepol" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/khajoo" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/monarj" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/aalighapoo" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/bazzargh1" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/mes" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/ghalam" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:cropToPadding="true"
+                app:srcCompat="@drawable/khatam" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

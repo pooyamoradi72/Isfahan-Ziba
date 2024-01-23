@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.pooyamoradi.isfahan_ziba.AboutUsActivity">
+
+    <TextView
+        android:id="@+id/txtAboutUs"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:text="درباره ما"
+        android:textAlignment="center"
+        android:textColor="@color/ColorMagen"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="27dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtAboutProgrammer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="برنامه نویس: پویا مرادی"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignRight="@+id/txtAboutUs"
+        android:layout_alignEnd="@+id/txtAboutUs" />
+
+    <TextView
+        android:id="@+id/ostaaad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="استاد: سرکار خانم نیکخواه"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_above="@+id/webView"
+        android:layout_alignRight="@+id/txtAboutDars"
+        android:layout_alignEnd="@+id/txtAboutDars" />
+
+    <TextView
+        android:id="@+id/txtAboutDars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView13"
+        android:layout_alignEnd="@+id/txtAboutCode"
+        android:layout_alignRight="@+id/txtAboutCode"
+        android:text="درس برنامه نویسی موبایل 1"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtAboutCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="کد دانشجویی:"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/txtAboutPhone"
+        android:layout_alignRight="@+id/txtAboutUs"
+        android:layout_alignEnd="@+id/txtAboutUs" />
+
+    <TextView
+        android:id="@+id/txtAboutStudentCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01211020302027"
+        android:textSize="15sp"
+        android:layout_alignBaseline="@+id/txtAboutCode"
+        android:layout_alignBottom="@+id/txtAboutCode"
+        android:layout_toLeftOf="@+id/txtAboutCode"
+        android:layout_toStartOf="@+id/txtAboutCode" />
+
+    <TextView
+        android:id="@+id/txtAboutPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تلفن: +98 921 191 7768"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_alignLeft="@+id/ostaaad"
+        android:layout_alignStart="@+id/ostaaad" />
+
+    <Button
+        android:id="@+id/btnBackAbout"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:text="بازگشت به منو اصلی"
+        android:textSize="22sp"></Button>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="450px"
+        android:visibility="visible"
+        android:layout_above="@+id/btnBackAbout"
+        android:layout_below="@+id/imageView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@drawable/prog_about"
+        android:layout_alignTop="@+id/txtAboutUs"
+        android:layout_alignLeft="@+id/imageView8"
+        android:layout_alignStart="@+id/imageView8" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/phone_about"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/code_about"
+        android:layout_alignBottom="@+id/txtAboutCode"
+        android:layout_alignRight="@+id/imageView8"
+        android:layout_alignEnd="@+id/imageView8" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/course_about"
+        android:layout_below="@+id/imageView6"
+        android:layout_toRightOf="@+id/ostaaad"
+        android:layout_toEndOf="@+id/ostaaad"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/teach_about"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+</RelativeLayout>

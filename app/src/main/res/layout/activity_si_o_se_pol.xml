@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.pooyamoradi.isfahan_ziba.si_o_se_pol">
+
+    <ImageView
+        android:id="@+id/imageViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="375dp"
+        app:srcCompat="@drawable/siosepol" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="150px"
+        android:layout_height="130px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="false"
+        android:scaleType="centerInside"
+        android:tooltipText="برگشت به صفحه اصلی"
+        android:translationZ="@android:dimen/app_icon_size"
+        android:visibility="visible"
+        app:srcCompat="@drawable/backkar" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <ScrollView
+
+        android:id="@+id/scrollView2"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtTitle">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txtMatn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_column="5"
+                android:layout_row="21"
+                android:justificationMode="inter_word"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Pooya__Moradi_Studio"
+                android:textAlignment="center"
+                android:textColor="@color/ColorTextBlue"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageEnd"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="375dp"
+                app:srcCompat="@drawable/siosepol" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
